@@ -1,0 +1,3 @@
+# Laziness is only natural
+
+To be written...
