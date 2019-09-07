@@ -1,7 +1,9 @@
 import keyboard
 
 def main():
-    keyboard.write("print('Hello world!')")
+    keyboard.add_hotkey("space", print, args = ["Space was pressed"])
+    keyboard.add_hotkey("alt", keyboard.write, args = ["Alt was pressed"])
+    #keyboard.write("print('Hello world!')")
     keyboard.wait("esc")
     print("Hello world")
 

@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo /usr/bin/python "$@"
+sudo /home/atk/Documents/LION/venv/bin/python "$@"
